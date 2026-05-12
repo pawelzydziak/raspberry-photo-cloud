@@ -35,7 +35,8 @@ Of course details like storage capacity or brand is completely up to you, but yo
 - External USB SSD (Sandisk 1TB)
 - External USB HDD (Seagate 10 TB - I made sure before hand that its CMR)
 
-[!TIP] Avoid SMR drives for large backup workloads because sustained write performance can collapse during heavy sync operations (as far as I learned higher capacities 10tb+ usually are CMR)
+> [!TIP]
+> Avoid SMR drives for large backup workloads because sustained write performance can collapse during heavy sync operations (as far as I learned higher capacities 10tb+ usually are CMR)
 
 ### Software
 
@@ -100,7 +101,8 @@ flowchart TB
 ## Step 0: Prerequisites
 I assume that you already have system [installed](https://www.raspberrypi.com/documentation/computers/getting-started.html#imager-install), disks plugged in (and formatted to ext4), [taken out your photos from Google](https://support.google.com/photos/thread/313688283/how-to-download-all-of-your-google-photos-videos-with-takeout?hl=en).
 
-[!TIP] Protip: Use the largest ZIP file avaliable. It’s easier to manage.
+> [!TIP]
+> Protip: Use the largest ZIP file available. It’s easier to manage.
 
 ## Step 1: Prepare and mount the disks
 
@@ -323,7 +325,8 @@ immich-go upload from-google-photos \
 
 It works on all major systems. If you use it consider [supporting](https://github.com/simulot/immich-go#-support-the-project) the project.
 
-[!TIP] You can use this tool to organize your takeout into folder structure that you desire. Its faster to do this on your machine beforehand if you are planning to use custom folder schema in immich anyway.
+> [!TIP]
+> You can use this tool to organize your takeout into folder structure that you desire. Its faster to do this on your machine beforehand if you are planning to use custom folder schema in immich anyway.
 
 ## Step 6: Backup strategy
 We will follow 3-2-1 rule.

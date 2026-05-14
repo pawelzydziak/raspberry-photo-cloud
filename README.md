@@ -1,7 +1,7 @@
 # Safe self hosted image storage setup with redundancy
 
 ## Backstory
-It all started because I got tired of being bullied by constant notifications due to aggressive upselling that I'm running out of space (even though I was on 85%). It was not even about the money, more about dark patterns trying to use fomo to make me pay even more. I decided enough is enough and came up with the idea of self hosting my photos with additional benefits such as network storage, steam link server, remotely accessed computer and of course - not paying to the big corporation. And also nothing is trained on my personal stuff.
+It all started because I got tired of being bullied by constant notifications due to aggressive upselling that I'm running out of space (even though I was on 85%). It was not even about the money, more about dark patterns trying to use fomo to make me pay even more. I decided enough is enough and came up with the idea of self hosting my photos with additional benefits such as network storage, steam link server, remotely accessed computer, network wide ad blocker and of course - not paying to the big corporation. And also nothing is trained on my personal stuff.
 
 This document describes a setup for moving away from Google Photos and running [Immich](https://immich.app/) on a Raspberry Pi 5 (probably 4 would do too, but using nvme was so much easier - which i wanted for system files and as one of network accessed storages) with separate storage layers.
 
